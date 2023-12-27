@@ -1,0 +1,7 @@
+.carcassonne-castle-img {
+  background-image: url('/images/carcassonne_castle_background.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  filter: contrast(95%);
+}

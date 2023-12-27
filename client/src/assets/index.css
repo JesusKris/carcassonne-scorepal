@@ -1,0 +1,53 @@
+@import './reset.css';
+@import './fonts.css';
+@import './images.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  height: 100%;
+  width: 100%;
+  font-size: 16px;
+}
+
+.mobile-safe-padding {
+  padding-top: 0%;
+  padding-bottom: 0%;
+}
+
+@media (min-width: 2000px) {
+  .mobile-safe-padding {
+    padding-top: 1%;
+    padding-bottom: 1%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .mobile-safe-padding {
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .mobile-safe-padding {
+    padding-top: 4%;
+    padding-bottom: 4%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .mobile-safe-padding {
+    padding-top: 6%;
+    padding-bottom: 6%;
+  }
+}
+
+@media (max-width: 600px) {
+  .mobile-safe-padding {
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+}
