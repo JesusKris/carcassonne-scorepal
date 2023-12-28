@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'Lindsay Becker', 'lindsay-becker';
-  src: url(/assets/lindsay-becker.eot);
-  src: url(/assets/lindsay-becker.ttf) format('ttf');
-  src: url(/assets/lindsay-becker.eot?#iefix) format('embedded-opentype'),
-       url(/assets/lindsay-becker.otf) format('otf'),
-       url(/assets/lindsay-becker.svg#lindsay-becker) format('svg'),
-       url(/assets/lindsay-becker.woff) format('woff'),
-       url(/assets/lindsay-becker.woff2) format('woff2');
+  src: url(./fonts/lindsay-becker.eot);
+  src: url(./fonts/lindsay-becker.ttf) format('ttf');
+  src: url(./fonts/lindsay-becker.eot?#iefix) format('embedded-opentype'),
+       url(./fonts/lindsay-becker.otf) format('otf'),
+       url(./fonts/lindsay-becker.svg#lindsay-becker) format('svg'),
+       url(./fonts/lindsay-becker.woff) format('woff'),
+       url(./fonts/lindsay-becker.woff2) format('woff2');
 }
