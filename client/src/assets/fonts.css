@@ -10,5 +10,5 @@
   url('/fonts/lindsay-becker.ttf'), format('truetype'), 
   url('/fonts/lindsay-becker.svg#lindsay-becker') format('svg'),
   url('/fonts/lindsay-becker.woff') format('woff'),
-  /* url('/fonts/lindsay-becker.woff2') format('woff2') */
+  url('/fonts/lindsay-becker.woff2') format('woff2')
 }
