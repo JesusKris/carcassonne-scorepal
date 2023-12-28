@@ -1,7 +1,7 @@
 [build]
   base = "./client"
 
-  public = "./client/dist"
+  public = "dist"
 
   command = "npm run build"
 
