@@ -1,17 +1,6 @@
 @font-face {
   font-family: 'Lindsay Becker', 'lindsay-becker';
-  src: url(/assets/lindsay-becker.eot);
-  src: url(/assets/lindsay-becker.ttf) format('ttf');
-  src: url(/assets/lindsay-becker.eot?#iefix) format('embedded-opentype'),
-    url(/assets/lindsay-becker.otf) format('otf'),
-    url(/assets/lindsay-becker.svg#lindsay-becker) format('svg'),
-    url(/assets/lindsay-becker.woff) format('woff'),
-    url(/assets/lindsay-becker.woff2) format('woff2');
-}
 
-@font-face {
-  font-family: 'Lindsay Becker', 'lindsay-becker';
-  src: url(/fonts/lindsay-becker.eot);
   src: url(/fonts/lindsay-becker.ttf) format('ttf');
   src: url(/fonts/lindsay-becker.eot?#iefix) format('embedded-opentype'),
     url(/fonts/lindsay-becker.otf) format('otf'),
@@ -21,23 +10,14 @@
 }
 
 @font-face {
-  font-family: 'Lindsay Becker', 'lindsay-becker';
-  src: url(./lindsay-becker.eot);
-  src: url(./lindsay-becker.ttf) format('ttf');
-  src: url(./lindsay-becker.eot?#iefix) format('embedded-opentype'),
-    url(./lindsay-becker.otf) format('otf'),
-    url(./lindsay-becker.svg#lindsay-becker) format('svg'),
-    url(./lindsay-becker.woff) format('woff'),
-    url(./lindsay-becker.woff2) format('woff2');
-}
-
-@font-face {
-  font-family: 'Lindsay Becker', 'lindsay-becker';
-  src: url(/lindsay-becker.eot);
-  src: url(/lindsay-becker.ttf) format('ttf');
-  src: url(/lindsay-becker.eot?#iefix) format('embedded-opentype'),
-    url(/lindsay-becker.otf) format('otf'),
-    url(/lindsay-becker.svg#lindsay-becker) format('svg'),
-    url(/lindsay-becker.woff) format('woff'),
-    url(/lindsay-becker.woff2) format('woff2');
+  font-family: "lindsay-becker", "Lindsay Becker";
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+  src: local("lindsay-becker", "Lindsay Becker"), url(/fonts/lindsay-becker.ttf) format('ttf'), 
+  url(/fonts/lindsay-becker.eot?#iefix) format('embedded-opentype'), 
+  url(/fonts/lindsay-becker.otf) format('otf'), 
+  url(/fonts/lindsay-becker.svg#lindsay-becker) format('svg'),
+  url(/fonts/lindsay-becker.woff) format('woff'),
+  url(/fonts/lindsay-becker.woff2) format('woff2')
 }
