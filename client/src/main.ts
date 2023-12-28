@@ -1,4 +1,10 @@
 import './assets/index.css'
+import './assets/lindsay-becker.eot'
+import './assets/lindsay-becker.otf'
+import './assets/lindsay-becker.svg'
+import './assets/lindsay-becker.ttf'
+import './assets/lindsay-becker.woff'
+import './assets/lindsay-becker.woff2'
 
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
