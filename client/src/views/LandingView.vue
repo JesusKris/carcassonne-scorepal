@@ -97,20 +97,21 @@ export default {
 
   computed: {
     continueMessage(): string {
-      const isTouchDevice = 'ontouchstart' in window || navigator.maxTouchPoints > 0 || navigator.maxTouchPoints > 0;
-      const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini|Mobile|Tablet/i.test(navigator.userAgent);
-      const isDesktopWithTouch = isTouchDevice && !isMobile && window.innerWidth >= 1024;
 
-      if (isDesktopWithTouch) {
-        return 'CLICK TO CONTINUE';
+      const userAgent = navigator.userAgent.toLowerCase()
+
+      const isTablet = (/(ipad|tablet|(android(?!.*mobile))|(windows(?!.*phone)(.*touch))|kindle|playbook|silk|(puffin(?!.*(IP|AP|WP))))/.test(userAgent)) 
+
+      const isMobile = (/(mobi|ipod|phone|blackberry|opera mini|fennec|minimo|symbian|psp|nintendo ds|archos|skyfire|puffin|s40Ovibrowser|blazer|bolt|gobrowser|iris|maemo|semc|teashark|uzard )/.test(userAgent))
+
+      if (isTablet || isMobile) {
+        return "TAP TO CONTINUE"
       }
 
-      if (isTouchDevice && isMobile || isMobile) {
-        return 'TAP TO CONTINUE';
-      }
+      return "CLICK TO CONTINUE"
 
-      return 'CLICK TO CONTINUE';
     }
+
   }
 }
 </script>
