@@ -24,6 +24,7 @@ import ScorePalLogoFull from '../components/LogoScorePalFull.vue'
   font-size: 5vw;
 }
 
+
 @media (min-width: 1200px) {
   .continue-message {
     font-size: 375%;
@@ -61,6 +62,7 @@ import ScorePalLogoFull from '../components/LogoScorePalFull.vue'
 }
 
 @keyframes fadeInOut {
+
   0%,
   100% {
     opacity: 0;
@@ -95,8 +97,19 @@ export default {
 
   computed: {
     continueMessage(): string {
-      const regex = /Mobi|Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i
-      return regex.test(navigator.userAgent) ? 'Tap to Continue' : 'Click to Continue'
+      const isTouchDevice = 'ontouchstart' in window || navigator.maxTouchPoints > 0 || navigator.maxTouchPoints > 0;
+      const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini|Mobile|Tablet/i.test(navigator.userAgent);
+      const isDesktopWithTouch = isTouchDevice && !isMobile && window.innerWidth >= 1024;
+
+      if (isDesktopWithTouch) {
+        return 'CLICK TO CONTINUE';
+      }
+
+      if (isTouchDevice && isMobile || isMobile) {
+        return 'TAP TO CONTINUE';
+      }
+
+      return 'CLICK TO CONTINUE';
     }
   }
 }
