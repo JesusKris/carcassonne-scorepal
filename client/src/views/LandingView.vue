@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import ScorePalLogoFull from '../components/LogoScorePalFull.vue'
+import MadeByJesusKris from '@/components/MadeByJesusKris.vue';
 </script>
 
 <template>
@@ -12,6 +13,7 @@ import ScorePalLogoFull from '../components/LogoScorePalFull.vue'
         {{ continueMessage }}
       </h2>
     </div>
+    <MadeByJesusKris />
   </div>
 </template>
 
