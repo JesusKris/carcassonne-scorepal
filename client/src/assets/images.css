@@ -3,5 +3,5 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50%;
-  filter: contrast(95%);
+  overflow-x: hidden;
 }
