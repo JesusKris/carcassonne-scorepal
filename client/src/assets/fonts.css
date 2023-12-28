@@ -1,14 +1,14 @@
 
 @font-face {
-  font-family: "lindsay-becker", "Lindsay Becker";
+  font-family: "lindsay-becker";
   font-weight: normal;
   font-style: normal;
   font-display: auto;
   src:
   url('/fonts/lindsay-becker.eot') format('eot'),
-  url('/fonts/lindsay-becker.otf') format('otf'), 
+/*   url('/fonts/lindsay-becker.otf') format('otf'), 
   url('/fonts/lindsay-becker.ttf') format('ttf'), 
   url('/fonts/lindsay-becker.svg#lindsay-becker') format('svg'),
   url('/fonts/lindsay-becker.woff') format('woff'),
-  url('/fonts/lindsay-becker.woff2') format('woff2'),
+  url('/fonts/lindsay-becker.woff2') format('woff2'), */
 }
