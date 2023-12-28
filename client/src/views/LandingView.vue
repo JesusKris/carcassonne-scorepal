@@ -21,13 +21,25 @@ import ScorePalLogoFull from '../components/LogoScorePalFull.vue'
   cursor: pointer;
   font-family: 'Lindsay Becker', 'lindsay-becker';
   font-weight: 700;
-  font-size: 5vw;
+  font-size: 4vw;
+}
+
+@media (min-width: 1200px) and (max-height: 600px) {
+  .continue-message {
+    font-size: 100% !important;
+  }
 }
 
 
+@media (min-width: 1200px) and (min-height: 600px) {
+  .continue-message {
+    font-size: 300%;
+  }
+}
+
 @media (min-width: 1200px) {
   .continue-message {
-    font-size: 375%;
+    font-size: 300%;
   }
 }
 
@@ -51,13 +63,13 @@ import ScorePalLogoFull from '../components/LogoScorePalFull.vue'
 
 @media (min-height: 501px) and (max-height: 600px) {
   .continue-message {
-    font-size: 3.5vw;
+    font-size: 3vw;
   }
 }
 
 @media (min-height: 601px) and (max-height: 700px) {
   .continue-message {
-    font-size: 4vw;
+    font-size: 3vw;
   }
 }
 
