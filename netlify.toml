@@ -1,6 +1,11 @@
 [build]
+  base = "./client/"
 
-[build.processing]
+  public = "./client/dist"
+
+  command = "npm run build"
+
+  [build.processing]
     skip_processing = true
 
 [[redirects]]
