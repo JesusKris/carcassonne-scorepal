@@ -30,3 +30,14 @@
     url(./lindsay-becker.woff) format('woff'),
     url(./lindsay-becker.woff2) format('woff2');
 }
+
+@font-face {
+  font-family: 'Lindsay Becker', 'lindsay-becker';
+  src: url(/lindsay-becker.eot);
+  src: url(/lindsay-becker.ttf) format('ttf');
+  src: url(/lindsay-becker.eot?#iefix) format('embedded-opentype'),
+    url(/lindsay-becker.otf) format('otf'),
+    url(/lindsay-becker.svg#lindsay-becker) format('svg'),
+    url(/lindsay-becker.woff) format('woff'),
+    url(/lindsay-becker.woff2) format('woff2');
+}
