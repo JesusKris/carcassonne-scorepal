@@ -1,14 +1,6 @@
 [build]
-  base = "./client"
-
+  base    = "./client"
   publish = "./dist"
-
-  command = "npm run build"
-
+  command = "npm run build-only"
   [build.processing]
     skip_processing = true
-
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
