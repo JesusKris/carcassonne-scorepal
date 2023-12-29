@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import ScorePalLogoFull from '../components/LogoScorePalFull.vue'
 import MadeByJesusKris from '../components/MadeByJesusKris.vue';
-import BlueButton from "../components/BlueButton.vue"
+
 </script>
 
 <template>
@@ -10,10 +10,7 @@ import BlueButton from "../components/BlueButton.vue"
       <ScorePalLogoFull />
     </div>
     <div class="flex-1 flex flex-col items-center align-top w-full">
-      <BlueButton :is-shown="false" :button-text="`Continue`" :callback="() =>console.log(`hi`)" />
-      <BlueButton :is-shown="true" :button-text="`New Game`" :callback="() =>console.log(`hi`)" />
-      <BlueButton :is-shown="true" :button-text="`History`" :callback="() =>console.log(`hi`)" />
-      <BlueButton :is-shown="true" :button-text="`Rules`" :callback="() =>console.log(`hi`)" />
+
 
     </div>
     <MadeByJesusKris />
