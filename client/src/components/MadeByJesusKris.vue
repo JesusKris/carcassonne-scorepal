@@ -12,7 +12,7 @@
 .made-by-jesuskris {
     position: absolute;
     z-index: 9999;
-    font-family: 'Lindsay Becker';
+    font-family: 'Lindsay Becker', 'lindsay-becker';
     font-weight: 600;
     font-size: calc(0.7vw + 0.7vh);
     bottom: 0.5%;
@@ -22,7 +22,7 @@
 .app-version {
     position: absolute;
     z-index: 9999;
-    font-family: 'Lindsay Becker';
+    font-family: 'Lindsay Becker', 'lindsay-becker';
     font-weight: 600;
     font-size: calc(0.7vw + 0.7vh);
     bottom: 2.5%;
