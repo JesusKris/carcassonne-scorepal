@@ -21,7 +21,7 @@ import MadeByJesusKris from '@/components/MadeByJesusKris.vue';
 .continue-message {
   animation: fadeInOut 2.5s infinite;
   cursor: pointer;
-  font-family: 'Lindsay Becker';
+  font-family: 'Lindsay Becker', 'lindsay-becker';
   font-weight: 700;
   font-size: 4vw;
 }
