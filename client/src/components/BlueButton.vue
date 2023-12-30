@@ -101,7 +101,7 @@ export default {
 
 @media (max-width: 700px) and (max-height: 700px) {
     .blue-menu-button {
-        width: 50vh !important;
+        width: 65vh !important;
         margin: 1vh !important;
     }
 }
