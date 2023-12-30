@@ -1,6 +1,7 @@
 .carcassonne-castle-img {
   background-image: url('/images/carcassonne_castle_background.webp');
   background-size: cover;
+  width: 100vw;
   background-repeat: no-repeat;
   background-position: 50%;
 }
