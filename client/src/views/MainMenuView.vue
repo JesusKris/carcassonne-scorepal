@@ -17,9 +17,9 @@ import BlueSymbol from '@/components/BlueSymbol.vue';
       <BlueButton :sprite-selector="'rules'" :is-shown="true" :callback="() => console.log(`hi`)" />
     </div>
     <MadeByJesusKris />
-    <div class="fixed bottom-0 right-4">
-      <BlueSymbol :sprite-selector="'qna'" :callback="() => console.log(`hi`)" />
+    <div class="fixed top-4 left-4">
       <BlueSymbol :sprite-selector="'settings'" :callback="() => console.log(`hi`)" />
+      <BlueSymbol :sprite-selector="'qna'" :callback="() => console.log(`hi`)" />
     </div>
   </div>
 </template> 

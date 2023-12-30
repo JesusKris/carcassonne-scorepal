@@ -1,5 +1,5 @@
 <template>
-    <div class="flex justify-end w-full blue-menu-symbol box-border">
+    <div class="flex justify-start w-full blue-menu-symbol box-border">
         <button @click="handleClick" class="sprite box-border justify-self-end" @mouseover="changeHoveringState" @mouseleave="changeHoveringState"
             :style="getStyleObject">
         </button>
@@ -93,18 +93,6 @@ export default {
 @media (max-width: 700px) {
     .blue-menu-symbol {
         width: 40vw;
-    }
-}
-
-@media (max-width: 800px) and (max-height: 400px) {
-    .blue-menu-symbol {
-        margin-right: 1vw;
-    }
-}
-
-@media (max-width: 400px) {
-    .blue-menu-symbol {
-        margin-bottom: 2vh;
     }
 }
 
