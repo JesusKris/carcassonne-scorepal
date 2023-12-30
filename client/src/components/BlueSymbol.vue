@@ -1,8 +1,7 @@
 <template>
-    <div v-if="isShown" class="flex justify-center blue-menu-button box-border">
-        <button @click="handleClick" class="sprite box-border" @mouseover="changeHoveringState" @mouseleave="changeHoveringState"
+    <div class="flex justify-end w-full blue-menu-symbol box-border">
+        <button @click="handleClick" class="sprite box-border justify-self-end" @mouseover="changeHoveringState" @mouseleave="changeHoveringState"
             :style="getStyleObject">
-
         </button>
     </div>
 </template>
@@ -23,11 +22,6 @@ export default {
             required: true,
         },
 
-        isShown: {
-            type: Boolean,
-            required: true,
-            default: false
-        },
         callback: {
             type: Function,
             required: true
@@ -50,29 +44,19 @@ export default {
         getStyleObject(): StyleValue {
 
             const spriteLocations = {
-                "new-game": {
+                "qna": {
                     "offHovering": '0 0',
-                    "onHovering": '11.11111111111111% 0'
+                    "onHovering": '33.33333333333333%'
                 },
 
-                "continue": {
-                    "offHovering": '22.22222222222222% 0',
-                    "onHovering": '33.33333333333333% 0'
+                "settings": {
+                    "offHovering": '66.66666666666667',
+                    "onHovering": '100%'
                 },
 
-                "history": {
-                    "offHovering": '44.44444444444444% 0',
-                    "onHovering": '55.55555555555556% 0'
-                },
-
-                "rules": {
-                    "offHovering": '66.7% 0',
-                    "onHovering": '77.81% 0'
-                },
             }
 
             return {
-                backgroundImage: `url("/images/blue_menu_buttons_sprite.${this.$i18n.locale}.png")`,
                 //@ts-expect-error
                 backgroundPosition: this.isHovering ? spriteLocations[this.spriteSelector].onHovering : spriteLocations[this.spriteSelector].offHovering,
             }
@@ -83,7 +67,7 @@ export default {
 </script>
 
 <style scoped>
-.blue-menu-button {
+.blue-menu-symbol {
     width: 55vh;
     margin: 1vh;
 }
@@ -142,9 +126,11 @@ export default {
 .sprite {
     width: 20%;
     height: 0;
-    padding-bottom: 7%;
+    padding-bottom: 15%;
     background-position: 0 0;
-    background-size: 1000%;
+    background-size: 400%;
     background-repeat: no-repeat;
+    background-image: url("/images/blue_symbols_buttons_sprite.png");
+
 }
 </style>

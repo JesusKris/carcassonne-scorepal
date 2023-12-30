@@ -2,6 +2,7 @@
 import ScorePalLogoFull from '../components/LogoScorePalFull.vue'
 import MadeByJesusKris from '../components/MadeByJesusKris.vue';
 import BlueButton from "../components/BlueButton.vue"
+import BlueSymbol from '@/components/BlueSymbol.vue';
 </script>
 
 <template>
@@ -13,10 +14,15 @@ import BlueButton from "../components/BlueButton.vue"
       <BlueButton :sprite-selector="'continue'" :is-shown="true" :callback="() => console.log(`hi`)" />
       <BlueButton :sprite-selector="'new-game'" :is-shown="true" :callback="() => console.log(`hi`)" />
       <BlueButton :sprite-selector="'history'" :is-shown="true" :callback="() => console.log(`hi`)" />
-      <BlueButton :sprite-selector="'rules'" :is-shown="true" :callback="() =>console.log(`hi`)" />
-    </div>
-    <MadeByJesusKris />
-  </div>
+        <BlueButton :sprite-selector="'rules'" :is-shown="true" :callback="() => console.log(`hi`)" />
+        </div>
+        <MadeByJesusKris />
+        <div class="fixed bottom-0 right-0">
+          <BlueSymbol :sprite-selector="'qna'" :callback="() => console.log(`hi`)" />
+
+
+        </div>
+      </div>
 </template> 
 
 <style scoped></style>
