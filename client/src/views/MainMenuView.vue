@@ -10,10 +10,10 @@ import BlueButton from "../components/BlueButton.vue"
       <ScorePalLogoFull />
     </div>
     <div class="flex-1 flex flex-col items-center align-top py-5 box-border">
-      <BlueButton :sprite-selector="'continue'" :is-shown="true" :callback="() => console.log(`hi`)" />
+<!--       <BlueButton :sprite-selector="'continue'" :is-shown="true" :callback="() => console.log(`hi`)" />
       <BlueButton :sprite-selector="'new-game'" :is-shown="true" :callback="() => console.log(`hi`)" />
       <BlueButton :sprite-selector="'history'" :is-shown="true" :callback="() => console.log(`hi`)" />
-      <BlueButton :sprite-selector="'rules'" :is-shown="true" :callback="() =>console.log(`hi`)" />
+      <BlueButton :sprite-selector="'rules'" :is-shown="true" :callback="() =>console.log(`hi`)" /> -->
     </div>
     <MadeByJesusKris />
   </div>
