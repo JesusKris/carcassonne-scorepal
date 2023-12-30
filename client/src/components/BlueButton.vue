@@ -101,7 +101,7 @@ export default {
 
 @media (max-width: 700px) and (max-height: 700px) {
     .blue-menu-button {
-        width: 100vh !important;
+        width: 50vh !important;
         margin: 1vh !important;
     }
 }
@@ -113,29 +113,6 @@ export default {
 
     }
 }
-
-
-
-/* @media (min-width: 1200px) {
-    .blue-menu-button {
-        width: 100vh;
-    }
-}
-
-@media (max-width: 1200px) and (max-height: 400px) {
-    .blue-menu-button {
-        width: 36vw !important;
-    }
-}
-
-@media (max-width: 800px) and (max-height: 400px) {
-    .blue-menu-button {
-        width: 36vw !important;
-    }
-} */
-
-
-
 
 @media (min-height: 301px) and (max-height: 400px) {
     .logo-full {

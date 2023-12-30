@@ -9,7 +9,7 @@ import BlueButton from "../components/BlueButton.vue"
     <div class="px-[7%] flex flex-1 flex-col items-center align-top w-full">
       <ScorePalLogoFull />
     </div>
-    <div class="flex-1 flex flex-col items-center align-top px-20 py-5">
+    <div class="flex-1 flex flex-col items-center align-top py-5">
       <BlueButton :sprite-selector="'continue'" :is-shown="true" :callback="() => console.log(`hi`)" />
       <BlueButton :sprite-selector="'new-game'" :is-shown="true" :callback="() => console.log(`hi`)" />
       <BlueButton :sprite-selector="'history'" :is-shown="true" :callback="() => console.log(`hi`)" />
