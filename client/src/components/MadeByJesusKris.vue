@@ -15,8 +15,8 @@
     font-family: 'Lindsay Becker', 'lindsay-becker';
     font-weight: 600;
     font-size: calc(0.7vw + 0.7vh);
-    bottom: 0.5%;
-    left: 0.5%
+    bottom: 0.5vh;
+    left: 0.5vw
 }
 
 .app-version {
@@ -25,8 +25,8 @@
     font-family: 'Lindsay Becker', 'lindsay-becker';
     font-weight: 600;
     font-size: calc(0.7vw + 0.7vh);
-    bottom: 2.5%;
-    left: 0.5%
+    bottom: 2.5vh;
+    left: 0.5vw
 }
 </style>
 
