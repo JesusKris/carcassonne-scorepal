@@ -5,7 +5,7 @@ import BlueButton from "../components/BlueButton.vue"
 </script>
 
 <template>
-  <div class="carcassonne-castle-img h-screen flex flex-col">
+  <div class="carcassonne-castle-img h-screen box-border flex flex-col">
  <!--    <div class="px-[7%] flex flex-1 flex-col items-center justify-center">
       <ScorePalLogoFull />
     </div> -->
@@ -15,7 +15,7 @@ import BlueButton from "../components/BlueButton.vue"
       <BlueButton :sprite-selector="'history'" :is-shown="true" :callback="() => console.log(`hi`)" />
       <BlueButton :sprite-selector="'rules'" :is-shown="true" :callback="() =>console.log(`hi`)" />
     </div> -->
-    <MadeByJesusKris />
+    <!-- <MadeByJesusKris /> -->
   </div>
 </template> 
 
