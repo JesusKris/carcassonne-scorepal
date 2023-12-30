@@ -1,5 +1,5 @@
 <template>
-    <div v-if="isShown" class="flex justify-center blue-menu-button box-border">
+    <div v-if="isShown" class="flex justify-center blue-menu-button box-border select-none">
         <button @click="handleClick" class="sprite box-border" @mouseover="changeHoveringState" @mouseleave="changeHoveringState"
             :style="getStyleObject">
 

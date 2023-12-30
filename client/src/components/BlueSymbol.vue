@@ -96,6 +96,19 @@ export default {
     }
 }
 
+@media (max-width: 800px) and (max-height: 400px) {
+    .blue-menu-symbol {
+        margin-right: 1vw;
+    }
+}
+
+@media (max-width: 400px) {
+    .blue-menu-symbol {
+        margin-bottom: 2vh;
+    }
+}
+
+
 
 .sprite {
     width: 20%;
