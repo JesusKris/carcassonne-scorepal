@@ -19,7 +19,6 @@ import BlueSymbol from '@/components/BlueSymbol.vue';
     <MadeByJesusKris />
     <div class="fixed top-4 left-4">
       <BlueSymbol :sprite-selector="'settings'" :callback="() => console.log(`hi`)" />
-      <BlueSymbol :sprite-selector="'qna'" :callback="() => console.log(`hi`)" />
     </div>
   </div>
 </template> 
