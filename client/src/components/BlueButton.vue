@@ -1,6 +1,6 @@
 <template>
-    <div v-if="isShown" class="flex justify-center blue-menu-button">
-        <button @click="handleClick" class="sprite" @mouseover="changeHoveringState" @mouseleave="changeHoveringState"
+    <div v-if="isShown" class="flex justify-center blue-menu-button box-border">
+        <button @click="handleClick" class="sprite box-border" @mouseover="changeHoveringState" @mouseleave="changeHoveringState"
             :style="getStyleObject">
 
         </button>
