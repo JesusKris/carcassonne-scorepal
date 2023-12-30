@@ -7,7 +7,7 @@ import BlueButton from "../components/BlueButton.vue"
 <template>
   <div class="carcassonne-castle-img w-screen h-screen flex mobile-safe-padding flex-col flex-grow">
     <div class="px-[7%] flex flex-1 flex-col items-center align-top w-full">
-      <ScorePalLogoFull />
+      <!-- <ScorePalLogoFull /> -->
     </div>
     <div class="flex-1 flex flex-col items-center align-top py-5 box-border">
 <!--       <BlueButton :sprite-selector="'continue'" :is-shown="true" :callback="() => console.log(`hi`)" />
