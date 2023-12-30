@@ -50,7 +50,7 @@ export default {
                 },
 
                 "settings": {
-                    "offHovering": '66.66666666666667',
+                    "offHovering": '66.66666666666667%',
                     "onHovering": '100%'
                 },
 
@@ -68,60 +68,34 @@ export default {
 
 <style scoped>
 .blue-menu-symbol {
-    width: 55vh;
+    width: 30vh;
     margin: 1vh;
 }
 
 @media (min-width: 700px) {
-    .blue-menu-button {
-        width: 80vh
+    .blue-menu-symbol {
+        width: 35vh
     }
 }
 
 @media (min-width: 1200px) {
-    .blue-menu-button {
-        width: 100vh
+    .blue-menu-symbol {
+        width: 40vh
     }
 }
 
 @media (max-width: 700px) and (max-height: 700px) {
-    .blue-menu-button {
-        width: 65vh !important;
-        margin: 1vh !important;
+    .blue-menu-symbol {
+        width: 35vh !important;
     }
 }
 
 @media (max-width: 700px) {
-    .blue-menu-button {
-        width: 100vw;
-        margin: 1vw;
-
+    .blue-menu-symbol {
+        width: 40vw;
     }
 }
 
-@media (min-height: 301px) and (max-height: 400px) {
-    .logo-full {
-        max-width: 225px;
-    }
-}
-
-@media (min-height: 401px) and (max-height: 500px) {
-    .logo-full {
-        max-width: 250px;
-    }
-}
-
-@media (min-height: 501px) and (max-height: 600px) {
-    .logo-full {
-        max-width: 400px;
-    }
-}
-
-@media (min-height: 601px) and (max-height: 700px) {
-    .logo-full {
-        max-width: 450px;
-    }
-}
 
 .sprite {
     width: 20%;

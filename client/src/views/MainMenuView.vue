@@ -14,15 +14,14 @@ import BlueSymbol from '@/components/BlueSymbol.vue';
       <BlueButton :sprite-selector="'continue'" :is-shown="true" :callback="() => console.log(`hi`)" />
       <BlueButton :sprite-selector="'new-game'" :is-shown="true" :callback="() => console.log(`hi`)" />
       <BlueButton :sprite-selector="'history'" :is-shown="true" :callback="() => console.log(`hi`)" />
-        <BlueButton :sprite-selector="'rules'" :is-shown="true" :callback="() => console.log(`hi`)" />
-        </div>
-        <MadeByJesusKris />
-        <div class="fixed bottom-0 right-0">
-          <BlueSymbol :sprite-selector="'qna'" :callback="() => console.log(`hi`)" />
-
-
-        </div>
-      </div>
+      <BlueButton :sprite-selector="'rules'" :is-shown="true" :callback="() => console.log(`hi`)" />
+    </div>
+    <MadeByJesusKris />
+    <div class="fixed bottom-0 right-4">
+      <BlueSymbol :sprite-selector="'qna'" :callback="() => console.log(`hi`)" />
+      <BlueSymbol :sprite-selector="'settings'" :callback="() => console.log(`hi`)" />
+    </div>
+  </div>
 </template> 
 
 <style scoped></style>
