@@ -15,7 +15,7 @@ import BlueButton from "../components/BlueButton.vue"
       <BlueButton :sprite-selector="'history'" :is-shown="true" :callback="() => console.log(`hi`)" />
       <BlueButton :sprite-selector="'rules'" :is-shown="true" :callback="() =>console.log(`hi`)" /> -->
     </div>
-    <MadeByJesusKris />
+    <!-- <MadeByJesusKris /> -->
   </div>
 </template> 
 
