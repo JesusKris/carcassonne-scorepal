@@ -93,6 +93,12 @@ export default {
     }
 }
 
+@media (min-width: 1200px) {
+    .blue-menu-button {
+        width: 100vh
+    }
+}
+
 @media (max-width: 700px) and (max-height: 700px) {
     .blue-menu-button {
         width: 100vh !important;
