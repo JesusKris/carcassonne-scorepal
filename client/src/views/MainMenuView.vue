@@ -5,7 +5,7 @@ import BlueButton from "../components/BlueButton.vue"
 </script>
 
 <template>
-  <div class="carcassonne-castle-img h-screen box-border flex flex-col">
+  <div class="carcassonne-castle-img  w-screen h-screen box-border flex flex-col">
  <!--    <div class="px-[7%] flex flex-1 flex-col items-center justify-center">
       <ScorePalLogoFull />
     </div> -->
