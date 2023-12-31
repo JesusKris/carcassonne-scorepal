@@ -35,7 +35,6 @@ export default {
         },
 
         handleClick() {
-            console.log(this.$i18n.locale)
             this.callback();
         }
     },

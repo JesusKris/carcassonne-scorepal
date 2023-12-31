@@ -41,7 +41,6 @@ export default {
         },
 
         handleClick() {
-            console.log(this.$i18n.locale)
             this.callback();
         }
     },
@@ -72,7 +71,6 @@ export default {
             }
 
             return {
-                backgroundImage: `url("/images/blue_menu_buttons_sprite.${this.$i18n.locale}.png")`,
                 //@ts-expect-error
                 backgroundPosition: this.isHovering ? spriteLocations[this.spriteSelector].onHovering : spriteLocations[this.spriteSelector].offHovering,
             }
@@ -122,5 +120,6 @@ export default {
     background-position: 0 0;
     background-size: 1000%;
     background-repeat: no-repeat;
+    background-image: url("/images/blue_menu_buttons_sprite.en.png");
 }
 </style>
