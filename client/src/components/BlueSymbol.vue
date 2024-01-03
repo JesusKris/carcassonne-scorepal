@@ -1,6 +1,6 @@
 <template>
     <div class="flex justify-start w-full blue-menu-symbol box-border">
-        <button @click="handleClick" class="sprite box-border justify-self-end" @mouseover="changeHoveringState" @mouseleave="changeHoveringState"
+        <button class="sprite box-border justify-self-end" @mouseover="changeHoveringState" @mouseleave="changeHoveringState"
             :style="getStyleObject">
         </button>
     </div>
@@ -22,21 +22,12 @@ export default {
             required: true,
         },
 
-        callback: {
-            type: Function,
-            required: true
-        }
-
     },
     methods: {
 
         changeHoveringState() {
             this.isHovering = !this.isHovering
         },
-
-        handleClick() {
-            this.callback();
-        }
     },
 
     computed: {

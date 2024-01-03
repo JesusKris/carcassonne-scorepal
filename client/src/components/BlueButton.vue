@@ -1,6 +1,6 @@
 <template>
     <div v-if="isShown" class="flex justify-center blue-menu-button box-border select-none">
-        <button @click="handleClick" class="sprite box-border" @mouseover="changeHoveringState" @mouseleave="changeHoveringState"
+        <button class="sprite box-border" @mouseover="changeHoveringState" @mouseleave="changeHoveringState"
             :style="getStyleObject">
 
         </button>
@@ -27,10 +27,6 @@ export default {
             type: Boolean,
             required: true,
             default: false
-        },
-        callback: {
-            type: Function,
-            required: true
         }
 
     },
@@ -39,10 +35,6 @@ export default {
         changeHoveringState() {
             this.isHovering = !this.isHovering
         },
-
-        handleClick() {
-            this.callback();
-        }
     },
 
     computed: {
@@ -51,22 +43,22 @@ export default {
             const spriteLocations = {
                 "new-game": {
                     "offHovering": '0 0',
-                    "onHovering": '11.11111111111111% 0'
+                    "onHovering": '9.090909090909091% 0'
                 },
 
                 "continue": {
-                    "offHovering": '22.22222222222222% 0',
-                    "onHovering": '33.33333333333333% 0'
+                    "offHovering": '18.18181818181818% 0',
+                    "onHovering": '27.27272727272727% 0'
                 },
 
                 "history": {
-                    "offHovering": '44.44444444444444% 0',
-                    "onHovering": '55.55555555555556% 0'
+                    "offHovering": '36.36363636363636% 0',
+                    "onHovering": '45.45454545454545% 0'
                 },
 
                 "rules": {
-                    "offHovering": '66.7% 0',
-                    "onHovering": '77.81% 0'
+                    "offHovering": '54.54545454545455% 0',
+                    "onHovering": '63.63636363636364% 0'
                 },
             }
 
@@ -118,7 +110,7 @@ export default {
     height: 0;
     padding-bottom: 7%;
     background-position: 0 0;
-    background-size: 1000%;
+    background-size: 1200%;
     background-repeat: no-repeat;
     background-image: url("/images/blue_menu_buttons_sprite.en.png");
 }
